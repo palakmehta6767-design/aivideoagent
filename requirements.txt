@@ -1,0 +1,32 @@
+# AI Meeting Assistant - Requirements
+# Install with: pip install -r requirements.txt
+
+# Core
+streamlit>=1.32.0
+
+# Transcription (runs locally)
+openai-whisper>=20231117
+
+# YouTube download
+yt-dlp>=2024.3.10
+
+# LangChain + Mistral
+langchain>=0.1.20
+langchain-community>=0.0.38
+langchain-mistralai>=0.1.6
+langchain-chroma>=0.1.2
+mistralai>=0.4.0
+
+# Vector DB (runs locally)
+chromadb>=0.4.24
+
+# HuggingFace Embeddings (runs locally)
+sentence-transformers>=2.7.0
+torch>=2.0.0
+
+# Audio processing
+pydub>=0.25.1
+imageio-ffmpeg>=0.4.9
+
+# Utilities
+python-dotenv>=1.0.0
